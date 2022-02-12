@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.listarCotacao {
+    width: 80%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.divListagem {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 15%;
+    padding: 20px;
+    height: 500px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.divListagem .inputColarUrl {
+    height: 60px;
+}
+.divListagem .btnColarUrl {
+    height: 60px;
+}
+
+.divListagem .divInputBotaoUrl {
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* -------------------------------- */
+
+.divCotacaoMoeda {
+    padding-left: 25px;
+}
+.divCotacaoMoeda i {
+    padding-right: 15px;
+}
+.divCotacaoMoeda .mdi-arrow-up-thick{
+    padding: 0 5px 0 0;
+    color: green;
+}
+.divCotacaoMoeda .mdi-arrow-down-thick{
+    padding: 0 10px 0 25px;
+    color: red;
+}
+
+.listarCotacao .divListagem #filtroMoeda {
+    position: absolute;
+    right: 11%;
+    padding: 5px;
+    border-radius: 10px;
+    width: 125px;
+}
+
+.divCotacaoMoeda div {
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.imgBrasil {
+    width: 30px;
+    height: 20px;
+}
