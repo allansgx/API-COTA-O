@@ -43,7 +43,7 @@ function cotacaoMoeda() {
                 divCotacaoUSD.innerHTML = '';
                 divCotacaoEUR.innerHTML = '';
                 divCotacaoBTC.innerHTML = `     <div class="divCotacaoBTC">
-                                                    <div> <i class="mdi mdi-currency-eur"></i>
+                                                    <div> <i class="mdi mdi-bitcoin"></i>
                                                         ${bitcoin.code} - ${(bitcoin.name).slice(0, 7)} 
                                                     </div>
                                                         <div> Atual: R$ ${valorAtualBitcoin} </div>
@@ -57,7 +57,7 @@ function cotacaoMoeda() {
                 divCotacaoUSD.innerHTML = '';
                 divCotacaoBTC.innerHTML = '';
                 divCotacaoEUR.innerHTML = `     <div class="divCotacaoEUR">
-                                                    <div> <i class="mdi mdi-bitcoin"></i>
+                                                    <div> <i class="mdi mdi-currency-eur"></i>
                                                             ${euro.code} - ${(euro.name).slice(0, 4)} 
                                                     </div>
                                                         <div> Atual: R$ ${valorAtualEuro} </div>
@@ -83,7 +83,7 @@ function cotacaoMoeda() {
 
                 divCotacaoBTC.innerHTML = `  <hr>
                                             <div class="divCotacaoBTC">
-                                                <div> <i class="mdi mdi-currency-eur"></i>
+                                                <div> <i class="mdi mdi-bitcoin"></i>
                                                     ${bitcoin.code} - ${(bitcoin.name).slice(0, 7)} 
                                                 </div>
                                                     <div> Atual: R$ ${valorAtualBitcoin} </div>
@@ -96,7 +96,7 @@ function cotacaoMoeda() {
 
                 divCotacaoEUR.innerHTML = ` <hr>
                                             <div class="divCotacaoEUR">
-                                                <div> <i class="mdi mdi-bitcoin"></i>
+                                                <div> <i class="mdi mdi-currency-eur"></i>
                                                         ${euro.code} - ${(euro.name).slice(0, 4)} 
                                                 </div>
                                                     <div> Atual: R$ ${valorAtualEuro} </div>
