@@ -1,7 +1,4 @@
 # API-COTACAO
+It only has the exchange rate for Dollar, Bitcoin and Euro. I created it just to practice using APIs.
 
-Só possui a cotação do Dolár, Bitcoin e Euro. 
-Fiz para práticar a utilização de API's.
-
-
-Link para testar: https://allansgx.github.io/API-COTACAO-MOEDA/
+Website: https://allansgx.github.io/API-COTACAO-MOEDA/
